@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Загрузка и отправка изображения</title>
+	<!-- Подключаем Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container mt-5">
+		<h1 class="text-center mb-4">Загрузка и отправка изображения</h1>
+		<form>
+			<div class="form-group">
+				<label for="imageInput">Выберите изображение:</label>
+				<input type="file" class="form-control-file" id="image">
+			</div>
+			<div class="form-group">
+				<canvas id="canvas" class="border" id="canvas" width="676", height="380"></canvas>
+			</div>
+			<button type="submit" class="btn btn-primary btn-block" id="submit-btn" disabled>Отправить</button>
+		</form>
+	</div>
+	<!-- Подключаем Bootstrap и jQuery JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" , ыcrossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		,crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		,crossorigin="anonymous"></script>
+	<!-- Подключаем JS скрипт -->
+	<script src="main.js"></script>
+</body>
+
+</html>
