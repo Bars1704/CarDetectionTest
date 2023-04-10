@@ -5,6 +5,8 @@ const submitBtn = document.getElementById('submit-btn');
 let imageSize = { width: 676, height: 380 }; // заданный размер изображения
 const hostName = 'http://fs.brukkil.pp.ua:5000/';
 
+console.log(1)
+
 function getImageSize() {
 	fetch(hostName + 'size', {
 		method: 'GET',
